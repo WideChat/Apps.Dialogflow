@@ -1,8 +1,12 @@
 {
     "bot_username": "Bot Username",
+    "dialogflow_bot_id": "Bot Id",
+    "dialogflow_bot_id_description": "Select the bot to use from the list of bots. Use comma to seperate values in respective fields",
     "dialogflow_project_id": "Project Id",
     "dialogflow_client_email": "Client Email",
     "dialogflow_private_key": "Private Key",
+    "dialogflow_environment": "Environment",
+    "dialogflow_environment_description": "Name of the Dialogflow environment. Default environment is draft",
     "dialogflow_fallback_responses_limit": "Fallback Responses Limit",
     "dialogflow_fallback_responses_limit_description": "The app will automatically trigger handover if consecutive fallback intents are triggered N no of times. This setting defines this value N",
     "target_department_for_handover": "Target Department for Handover",
@@ -14,5 +18,15 @@
     "dialogflow_close_chat_message": "Close Chat Message",
     "dialogflow_close_chat_message_description": "This message will be sent automatically when a chat is closed",
     "dialogflow_hide_quick_replies": "Hide Quick Replies",
-    "dialogflow_hide_quick_replies_description": "If enabled, then all quick-replies will hide when a visitor clicks on any one of them"
+    "dialogflow_hide_quick_replies_description": "If enabled, then all quick-replies will hide when a visitor clicks on any one of them",
+    "dialogflow_enable_chat_closed_by_visitor_event": "Enable Dialogflow Event When Visitor Ends Chat",
+    "dialogflow_enable_chat_closed_by_visitor_event_description": "If enabled, then a dialogflow event will be triggered when visitor ends chat",
+    "dialogflow_chat_closed_by_visitor_event_name": "Dialogflow Event Name When Visitor Ends Chat",
+    "dialogflow_chat_closed_by_visitor_event_name_description": "The bot will trigger this dialogflow event when visitor ends chat",
+    "dialogflow_enable_welcome_message": "Enable Custom Welcome Message",
+    "dialogflow_enable_welcome_message_description": "If enabled, then a custom welcome message will be sent when bot is assigned to any visitor",
+    "dialogflow_welcome_message": "Dialogflow Message to send on start",
+    "dialogflow_welcome_message_description": "Custom welcome message to send to visitor",
+    "dialogflow_welcome_intent_on_start": "Send Welcome Intent",
+    "dialogflow_welcome_intent_on_start_description": "If enabled, then a welcome event will be sent when bot is assigned to any visitor"
 }
