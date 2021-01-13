@@ -38,6 +38,7 @@ export interface IDialogflowQuickReplyOptions {
     text: string;
     actionId?: string;
     buttonStyle?: ButtonStyle;
+    salesforceButtonId?: string;
     data?: {
         [prop: string]: any;
     };
