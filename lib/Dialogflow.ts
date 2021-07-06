@@ -221,7 +221,6 @@ class DialogflowClass {
                             messages.push(quickReplies);
                         }
                     }
-                    console.log(customFields.mediaCardURL);
                     if (customFields) {
                         msgCustomFields.disableInput = !!customFields.disableInput;
                         msgCustomFields.disableInputMessage = customFields.disableInputMessage;
